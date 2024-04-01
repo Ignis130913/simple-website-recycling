@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">.
+    <title>Admin Home</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000;
+            font-family: 'Roboto', sans-serif;
+            margin: auto;
+            padding: 0;
+            width: 100%;
+            overflow: hidden;
+        }
+        .banner {
+            background-color: transparent;
+            color: #fff;
+            padding: 20px 0;
+            margin-bottom: 30px;
+        }
+        .heading {
+            margin-bottom: 20px;
+        }
+        .logout-btn {
+            background-color: #dc3545;
+            border-color: #dc3545;
+            color: #fff;
+        }
+        .logout-btn:hover {
+            background-color: #c82333;
+            border-color: #bd2130;
+        }
+        .footer {
+            height: 10px;
+            background-color: transparent;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .carousel-inner img {
+            width: 90%;
+            height: 400px;
+            object-fit: cover;
+        }
+        .copyright {
+            margin-top: 20px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner text-center" style="scale: 1.3;">
+        <div class="heading">
+            <h1 style="font-weight: 800;">SMART GARBAGE MONITORING SYSTEM USING IOT</h1>
+            <h3 style="font-weight: 200;">WELCOME TO RECYCLING PORTAL</h3>
+        </div>
+        <a href="logout.html" class="btn logout-btn">Logout</a>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="scale: 0.7;">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://via.placeholder.com/1000x400.png?text=Recyclable+Paper" class="d-block w-100" alt="Recyclable Paper">
+        </div>
+        <div class="carousel-item">
+            <img src="https://via.placeholder.com/1000x400.png?text=Recyclable+Plastic+Bottles" class="d-block w-100" alt="Recyclable Plastic Bottles">
+        </div>
+        <div class="carousel-item">
+            <img src="https://via.placeholder.com/1000x400.png?text=Recyclable+Aluminum+Cans" class="d-block w-100" alt="Recyclable Aluminum Cans">
+        </div>
+    </div>
+    
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+    <br>
+    <br>
+    <div class="footer" style="display: flex; align-items: center; justify-content: center;">
+        <p class="copyright" style="color: white;">Copyright © 2024 Smart Garbage Monitoring System!. All Rights are reserved</p>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
